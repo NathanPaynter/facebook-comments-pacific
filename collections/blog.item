@@ -98,11 +98,11 @@
 
   </article>
 
-  <div id="comments-{id}" class="p-comment">
+  <!-- <div id="comments-{id}" class="p-comment">
     {.comments?}{@|comments}{.end}
-  </div>
+  </div> -->
 
-  {@|apply facebook-comments.block}
+  {.comments?}{@|apply facebook-comments.block}{.end}
 
   {.end}
 
